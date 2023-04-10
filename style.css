@@ -1,4 +1,22 @@
-body {
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabeçario {
     background-color: #a24bceef;
     color: white;
+display: flex;
+justify-content: space-around;
+padding: 2px 0;
+}
+
+.cabeçario-imagem{
+width: 30%;
+}
+
+.cabaçario-imagem-item{
+display: inline-block;
+margin:0 16px;
+font-size: 26px;
 }
